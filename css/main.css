@@ -1,0 +1,449 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  overflow-x: hidden;
+  font-family:'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing:antialiased !important;
+}
+a{
+  transition: all 500ms ease-in-out;
+  text-transform: uppercase;
+}
+
+ul > li
+{
+    margin-left: 10px;
+}
+.navbar a
+{
+  opacity: 0.7;
+  color: #ffffff !important;
+}
+.navbar a:hover
+{
+  opacity: 1;
+  background-color: #111111;
+  border: 1px solid #c3c3c3;
+}
+.navbar .navbar-toggler-icon
+{
+  color: #FFFFFFFF;
+}
+
+/* header */
+
+#header
+{
+   height: 600px;
+   width: 100%;
+   padding: 30px 0px 30px;
+   margin-top: 50px;
+   background-image: url('../images/background.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   color: #fff;
+}
+#header img
+{
+   height: 350px;
+   width: 485px;
+   margin: 50px 10px 0px 40px;
+}
+
+#header h1
+{
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: center;
+}
+#header h1,#header p,#header .btn
+{
+  margin-top: 20px;
+}
+#header .btn
+{
+  border-radius: 5px;
+  margin : 20px 20px;
+}
+#header #buttons
+{
+  text-align: center;
+}
+#header .btn:hover
+{
+   color: #222222;
+   background-color: #FFFFFF;
+}
+
+
+/* for resposive */
+
+@media(max-width: 768px)
+{
+
+  #header
+  {
+    padding: 30px;
+    height: 820px;
+  }
+  #header img
+  {
+   margin: 0 auto;
+  }
+  button span
+  {
+    color: #FFFFFF;
+  }
+}
+
+/* Services */
+
+#services
+{
+  padding: 20px 0 20px;
+  text-align: center;
+}
+#services h2,
+#services h4,
+#services h6
+{
+  color: #3c3c3c;
+  margin: 20px 0 20px;
+
+}
+#services h6
+{
+  padding-bottom: 15px;
+}
+#services p
+{
+  color: #737373;
+  padding-bottom: 40px;
+  font-size: 14px;
+  text-align: justify;
+}
+#services i
+{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 25px 25px;
+  background-color:#20B2AA ;
+  color: #fff;
+}
+
+@media (max-width:768px) {
+  #services
+  {
+    padding: 30px;
+  }
+}
+
+/* Pricing */
+
+#pricing
+{
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  height: 700px;
+  padding-top: 20px;
+
+}
+.container .head1
+{
+  padding-top:20px;
+  text-transform: uppercase;
+
+}
+.container .head1,
+.container .head2
+{
+color: #FFFFFF;
+padding-top: 15px;
+padding-bottom: 10px;
+
+
+}
+.packages
+{
+  padding-top: 25px;
+   background-color: #FFFFFF;
+   border: 0.5px solid #FFFF;
+   padding: 25px;
+   border-radius: 10px;
+}
+.packages h2
+{
+  text-transform: uppercase;
+}
+.packages h2,
+.packages h4
+{
+  padding: 10px;
+  margin: 10px;
+}
+.packages li{
+  list-style:none;
+  padding: 10px;
+}
+.packages .btn
+{
+  margin-top: 15px;
+}
+.packages .btn:hover
+{
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+/* resposive */
+
+@media (max-width:768px) {
+  #pricing
+  {
+    height: 1700px;
+  }
+  .packages
+  {
+    margin-top: 15px;
+  }
+
+}
+
+/* team */
+#team{
+  padding-top: 20px;
+}
+#team #team-h1
+{
+  text-transform: uppercase;
+}
+#team p,
+#team h2
+{
+  text-align: center;
+  padding-top: 15px;
+}
+#teams
+{
+   padding-top: 20px;
+   text-align: center;
+   font-family:'Open Sans', sans-serif;
+   display: inline-block;
+}
+#teams p
+{
+  text-align: justify;
+}
+#team-image
+{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 20px;
+}
+#teams i
+{
+      height: 30px;
+      width: 30px;
+      margin: 5px;
+      padding: 5px;
+      font-size: 17px;
+      border-radius: 50%;
+      background-color: #1E90FF;
+      color: #fff;
+}
+#teams i:hover
+{
+  background-color: #20B2AA;
+}
+
+/* resposive */
+
+@media (max-width:768px) {
+  #teams
+  {
+    margin: 15px;
+    padding: 15px;
+  }
+
+}
+
+/* Client */
+
+#client
+{
+  height: 320px;
+  text-align: center;
+  margin-top: 30px;
+  font-family:'Open Sans', sans-serif;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#client h2
+{
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+#client li
+{
+  list-style: none;
+  margin-top: 20px;
+}
+#client img
+{
+  width: 200px;
+  opacity: 0.7;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+}
+#client li:hover img
+{
+  opacity: 1;
+}
+
+/* resposive */
+
+@media(max-width:768px)
+{
+
+  #client
+  {
+    height: 600px;
+  }
+  .client img
+  {
+    margin: 10px;
+  }
+}
+
+
+/* contact */
+.contact
+{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-group
+{
+  margin-top: 20px;
+  padding: 8px;
+}
+.contact button
+{
+  margin-top: 20px;
+}
+.contact button:hover
+{
+   background-color: #2222;
+   color: #000000;
+}
+
+/* resposive */
+
+@media(max-widht:768px)
+{
+  .contact #contact1 button
+  {
+    margin-bottom:10px;
+  }
+  .contact #contact2
+  {
+  margin-top: 20px;
+  padding-top: 10px;
+  }
+}
+
+/* footer */
+
+.footer
+{
+  padding: 10px;
+  text-align: justify;
+}
+
+.footer .container
+{
+   margin-top: 10px;
+   color: #FFFFFF;
+}
+.footer h2
+{
+  margin-top:20px;
+  text-transform: uppercase;
+}
+.footer li
+{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer i
+{
+   background-color: #1a8cff;
+   color: #FFFF;
+   height: 30px;
+   width: 30px;
+   padding: 5px;
+   margin: 5px;
+   font-size: 20px;;
+}
+.footer input
+{
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.footer button
+{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.footer button:hover
+{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.footer i:hover
+{
+  background-color: #0000ff;
+  color: #FFFFFF;
+}
+.footer p
+{
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+#footer2 i
+{
+  margin-top: 10px;
+   height: 10px;
+   width: 10px;
+   font-size: 10px;
+}
+
+/* resposive */
+
+@media(max-width:768px)
+{
+  .footer h2
+  {
+    text-align: center;
+  }
+  .footer
+  {
+    margin-top: 20px;
+  }
+}
